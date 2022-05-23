@@ -61,7 +61,6 @@ header .navigation:before {
     cursor: pointer;
 }
 
-
 header .navigation .nav-toggle .nav-toggle__bar-wrapper {
     position: relative;
     width: 26px;
@@ -198,7 +197,8 @@ header .navigation.navigation-open::before {
         width: 26px;
     }
 
-    header .navigation .nav-toggle:hover .nav-toggle__bar-wrapper .bar-wrapper__bar, header .navigation .nav-toggle:focus .nav-toggle__bar-wrapper .bar-wrapper__bar {
+    header .navigation .nav-toggle:hover .nav-toggle__bar-wrapper .bar-wrapper__bar,
+    header .navigation .nav-toggle:focus .nav-toggle__bar-wrapper .bar-wrapper__bar {
         background: #fff !important;
     }
 }
